@@ -1,0 +1,20 @@
+h2 {
+font-family:'Courier New', Courier, monospace;
+color: navy;
+
+}
+
+.selected {
+
+background-color: aqua;
+
+}
+
+.wrong {
+background-color: red;
+
+}
+.right {
+font: bold;
+background-color: green;
+}

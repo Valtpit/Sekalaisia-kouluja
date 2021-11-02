@@ -1,0 +1,41 @@
+/*Anun koodi, ELÄ RÄPI*/
+.visailu {
+    background-color: rgb(128, 240, 137);
+    width: 500px;
+    border-radius: 10px;
+    padding: 5px;
+}
+figure img {
+    width: 300px;
+}
+
+.not_visible {
+    display: none;
+}
+
+li {
+    list-style: none;
+}
+
+.valittu {
+    background-color: rgba(67, 1, 247, 0.918);
+    color:honeydew;
+}
+
+.oikein {
+    background-color: rgb(33, 218, 42);
+}
+
+.väärin {
+    background-color: rgb(218, 25, 25);
+}
+
+.vääränoikea {
+    background-color: rgb(236, 197, 19);
+}
+
+.näytä {
+    display: none;
+}
+
+
