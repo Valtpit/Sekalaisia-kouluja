@@ -1,0 +1,100 @@
+form {
+    background-color: #a8ae8a50;
+    margin: 0.5em;
+    border: #a8ae8a solid 3px;
+    border-radius: 10px;
+}
+.taulu tr {
+    width: 100%;
+    border-radius: 20px;
+    vertical-align: center;
+}
+.taulu td {
+    width: 10%;
+    margin: 0;
+    padding: 0.2em;
+}
+.taulu label {
+    text-align: left;
+    color: #fdfdfd;
+}
+.taulu input {
+    background-color: rgb(196, 197, 134);
+    text-align: center;
+    font-size: 1.3em;
+    width: 12em;
+    padding-left: 0;
+    border: 3px solid #c4c9ae38;
+    border-radius: 10px;
+    color: #606123;
+}
+.taulu input:hover {
+    background-color: rgba(255, 255, 255, 0.425);
+}
+.text input {
+    width: 5em;
+}
+.taulu button {
+    background-color: #fdfdfd;
+    color: #606123;
+    font-size: 1.4em;
+    text-align: right;
+    margin: 0.8em;
+    padding: 1em 2em 1em 2em;
+}
+.taulu button:hover {
+    background-color: rgb(194, 183, 144);
+    color: linen;
+}
+.layout {
+    margin: 0.5em;
+    background-color: rgb(111, 112, 105);
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    width: 100%;
+}
+li {
+    margin: 1em;
+}
+.layout p {
+    margin: 0 1em 0 1em;
+    max-width: 80%;
+    padding: 0;
+    color: rgb(221, 218, 213);
+}
+.teksti {
+    background-color: rgba(152, 205, 102, 0.336);
+}
+
+.delete1 {
+    margin: 0 3em 0 0;
+    padding: 0.8em;
+    background-color: rgb(111, 112, 105);
+    background-image: linear-gradient(rgb(111, 112, 105), rgb(148, 46, 46));
+    color: linen !important;
+    font-size: 1.1em;
+    border-radius: 0 0 20px 20px;
+}
+.delete1:hover {
+    background-image: linear-gradient(rgb(111, 112, 105), rgb(95, 21, 21));
+}
+
+/*Tästä alas on maintenanceP.js:n muotoilut*/
+.center {
+    width: 100%;
+    text-align: center;
+}
+.lisätieto {
+    width: 80% !important;
+}
+.Plisää {
+    width: 100%;
+    text-align: center;
+}
+.delete2 {
+    padding: 0.1em 0.6em;
+    background-color: rgb(128, 72, 64);
+    color: rgb(250, 246, 246) !important;
+    border-radius: 30px;
+}

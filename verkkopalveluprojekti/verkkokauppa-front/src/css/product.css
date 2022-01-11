@@ -1,0 +1,54 @@
+/*navigointi takaisin tuoteryhmiin tai tuoteryhmään (näyttää myös nimeltä valitun tuotenäkymän tuotteen)*/
+.navigointi {
+    width: 100%;
+    background-color: #a8ae8a5e;
+}
+.navigointi h2 {
+    text-align: left;
+}
+/*tuotteen nimi ja alustava hinta sekä formin h1*/
+.profiili h1, .form-tiedot h1 {
+    color: #a8ae8a;
+}
+.carousel {
+    background-color: #a8ae8a5b;
+    margin: 0.5em;
+    border: #a8ae8a solid 2px;
+}
+.carousel.item{
+    max-width: 3em;
+    max-height: 3em;
+}
+/*form-btn*/
+.btn_loota {
+    margin: 1em;
+    width: 100%;
+    text-align: center;
+}
+button {
+    background-color: #a8ae8a;
+    border: none;
+    padding: 0 2em 0.5em 2em;
+}
+button h1 {
+    padding-top: 0.4em;
+}
+button:hover {
+    background-color: #a8ae8aa9;
+}
+.duckSvg {
+    margin: 1em;
+    width: 100%;
+    text-align: center;
+}
+.duckSvg img {
+    transform: scaleX(-1);
+}
+.tuotetiedot {
+    margin-top: 6em;
+    background-color: #ffffff;
+}
+.lippu {
+    height: 10em;
+    width: 7em;
+}

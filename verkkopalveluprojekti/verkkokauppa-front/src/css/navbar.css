@@ -1,0 +1,63 @@
+/*kirjautuminen/rekisteröityminen omalla rivillä muusta navista*/
+.tunnistautuminen {
+  text-align: right;
+  margin: 0.2em 0.2em 0;
+}
+.tunnistautuminen a {
+  padding: 0.3em 0.3em 0;
+}
+.tunnistautuminen a:hover {
+  color: #706a58;
+}
+
+/*Kielinapin muotoilu, vasen yläkulma isolla näytöllä, mobiilissa ja tabletilla hampurilaisessa.*/
+.kieli {
+    width: 100%;
+    text-align: center;
+    padding-top: 2em;
+}
+.kieli a {
+  text-decoration: none;
+  color: #514b3b;
+  margin-top: 4em;
+}
+
+.kieli a:hover {
+  text-decoration: none;
+  color: #948f84;
+}
+
+.FI {
+  margin-left: 1em;
+  margin-right: 0.2em;
+}
+
+.EN {
+  margin-left: 0.2em;
+}
+/*Logo*/
+figure {
+  text-align: center;
+  padding-top: 0;
+}
+img {
+  width: 10em;
+}
+
+.ostoskori {
+    margin-top: 1em;
+}
+/*alue missä edelliset ovat (header)*/
+.navi {
+  background-color: #a8ae8a;
+}
+.navbar {
+  background-color: #a8ae8a;
+  text-align: center;
+}
+Nav h3 {
+  padding: 0 1.5em 0 1.5em;
+}
+Nav h3:hover, .ostoskori:hover {
+  color: #706a58;
+}

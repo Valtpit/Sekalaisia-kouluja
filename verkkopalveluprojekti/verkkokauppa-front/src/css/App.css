@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/*Komponentteja tehdessä kannattaa muistaa käyttää näitä!*/
+
+
+h1 {
+  font-family: 'DM Serif Display', serif;
+  color: #514B3B;
+  text-align: center;
+  width: 100%;
+  padding-top: 1em;
+}
+/*Tämä on mm. painikkeiden teksteille.*/
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: #514B3B;
+  text-align: center;
+  width: 100%;
+}
+/*Kaikki pienemmät otsikot pääotsikon jälkeen ja footerin linkit...*/
+h3 {
+  font-family: 'DM Serif Display', serif;
+  color: #514B3B;
+  text-align: center;
+  width: 100%;
+  padding-top: 0.3em;
+}
+p {
+  color: #514B3B;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  width: 100%;
+  padding: 15px;
+}
+/*img täytyy aina olla ensin 100%, joten lisään suoraan tänne..kuvan koko määritellään figurella/divillä*/
+img {
+  width: 100%;
+}
+/*scroll-btn*/
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 30px;
+  background: #514B3B;
+  color: white;
+  cursor: pointer;
+  border-radius: 30px;
+  border: none;
+  /*box-shadow: 0 5px 10px #ccc;*/
+
+}
+
+.back-to-top:hover {
+  background: #514B3B;
+}
+
+/*Service + Us +Home sivun kuvat + button */
+.servicePics{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.buttonToCenter{
+  text-align: center;
+}
+
+.seviceButton{
+  text-align: center;
+  margin-bottom: 10%;
+  border-style: none;
+  padding: 2%;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F4EDDA;
+  color: #514B3B;
+  text-align: center;
+  text-decoration: none;
+}
+
+.seviceButton:hover{
+  color: #514B3B;
+  background-color: #d8ccac;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.seviceButton:active{
+  box-shadow: none;
+  transform: translateY(0);
+  text-decoration: none;
+}
+a:link, a:visited {
+  font-family: 'Open Sans', sans-serif;
+  color: #514B3B;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  font-family: 'Open Sans', sans-serif;
+  color: #514B3B;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* About sivun ul elementti + linkit*/
+.AboutULElement{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.aboutPageLinks a{
+  font-family: "DM Serif Display", serif;
+  text-decoration: none;
+  color: #514b3b;
+  margin-top: 1em;
+}
+
+.aboutPageLinks a:hover{
+  text-decoration: none;
+  color: #948f84;
+}
+
+/* Verkkokauppa sivun card elementtien testausta  + button style*/
+
+
+.webShopButton{
+  background-color: #F4EDDA;
+  text-align: center;
+  margin-bottom: 10%;
+  border-style: none;
+  padding: 0.3em 1em 0.3em 1em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.7em;
+  color: #514B3B;
+  text-align: center;
+  text-decoration: none;
+}
+
+.webShopButton:hover{
+  color: #514B3B;
+  background-color: #d8ccac;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.webShopButton a:hover{
+  color: #514B3B;
+}
+
+.webShopButton:active{
+  box-shadow: none;
+  transform: translateY(0);
+  text-decoration: none;
+}
+a:link, a:visited {
+  font-family: 'Open Sans', sans-serif;
+  color: #514B3B;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  font-family: 'Open Sans', sans-serif;
+  color: #514B3B;
+  text-align: center;
+  text-decoration: none;
+}
+/*shop- ja category-sivun kortit*/
+.card h2 {
+  font-size: 1.4em;
+}
+.card p {
+  padding: 0;
+}
+.shopCard {
+  height:37rem;
+}
+.categoryCard {
+  margin: 1em;
+}
+.categoryCard h2 {
+  font-size: 1.4em;
+  color: #FFF;
+}
+/*category-sivun ostoskoripainike*/
+.webShopAddBtn {
+  background-color: aquamarine;
+}
+.webShopAddBtn {
+  background-color: #fcfcfc5b;
+  text-align: center;
+  margin-bottom: 10%;
+  border-style: none;
+  padding: 0.5em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.7em;
+  color: #FFF;
+  text-align: center;
+  text-decoration: none;
+}
+
+.webShopAddBtn:hover{
+  color: #514B3B;
+  background-color: #ece7d7;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+  text-decoration: none;
+}
